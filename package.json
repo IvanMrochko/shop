@@ -1,0 +1,50 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@types/react-addons-css-transition-group": "^15.0.5",
+    "@types/react-swipeable": "^4.2.2",
+    "react": "latest",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.4.2",
+    "react-easy-swipe": "0.0.16",
+    "react-infinite-scroller": "^1.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-swipeable": "^4.3.0",
+    "react-swipeable-views": "^0.12.16",
+    "react-swipeable-views-utils": "^0.12.16",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/material-ui": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-list": "^0.8.4",
+    "@types/react-redux": "^6.0.6",
+    "@types/react-router-dom": "^4.3.0",
+    "@types/react-swipe": "^5.0.3",
+    "@types/react-swipeable-views": "^0.12.2",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "mini-css-extract-plugin": "latest",
+    "react-hot-loader": "latest",
+    "ts-loader": "latest",
+    "tslint": "latest",
+    "tslint-config-prettier": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --inline --hot --open",
+    "build": "webpack  --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
