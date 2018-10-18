@@ -2,11 +2,13 @@
   "name": "create-react-app-with-typescript",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://github.com/maxivan41/shop",
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
     "@types/react-addons-css-transition-group": "^15.0.5",
     "@types/react-swipeable": "^4.2.2",
+    "gh-pages": "^2.0.1",
     "react": "latest",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.4.2",
@@ -43,8 +45,11 @@
     "webpack-dev-server": "latest"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --inline --hot --open",
     "build": "webpack  --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   }
 }
